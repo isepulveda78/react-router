@@ -1,0 +1,21 @@
+.container{
+  display: grid;
+  justify-content: center;
+}
+
+nav{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-width: 10vh;
+  background-color: rgb(32, 32, 44);
+  color: #ffffff;
+}
+
+.nav-links{
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+}
